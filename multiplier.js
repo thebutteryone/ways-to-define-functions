@@ -1,2 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
