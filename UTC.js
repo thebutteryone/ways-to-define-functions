@@ -1,1 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const repositoryRootPath = path.resolve(__dirname, '..');
+console.log("1 && 2 = "+(1 && 2));
