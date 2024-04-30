@@ -1,4 +1,3 @@
-const channelName = getChannelName(channel);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const arrayContains = (arr, element) => arr.includes(element);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var pattern = {};
