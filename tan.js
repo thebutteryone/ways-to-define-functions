@@ -1,1 +1,2 @@
-console.log(false == '0');
+const executableName = getExecutableName(channel, appName);
+const appName = getAppName(channel);
