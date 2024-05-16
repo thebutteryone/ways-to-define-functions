@@ -1,2 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const appName = getAppName(channel);
+const repositoryRootPath = path.resolve(__dirname, '..');
+console.log("0 && 1 = "+(0 && 1));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
