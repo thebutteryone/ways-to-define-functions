@@ -1,3 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-console.log("0 && 1 = "+(0 && 1));
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const fullName = name || 'buddy';
