@@ -1,2 +1,1 @@
-var arr3 = "jones".split('');
-const randomString = () => Math.random().toString(36).slice(2);
+console.log("0 && 1 = "+(0 && 1));
