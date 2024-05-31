@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const goToTop = () => window.scrollTo(0, 0);
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
