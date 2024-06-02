@@ -1,2 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
