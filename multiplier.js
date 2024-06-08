@@ -1,2 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var arr1 = "john".split('');
+const flattenedArray = arr => [].concat(...arr);
+var arr3 = "jones".split('');
+const isTabInView = () => !document.hidden;
