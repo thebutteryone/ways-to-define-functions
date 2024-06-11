@@ -1,3 +1,2 @@
 console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-console.log( "A" - "B" + "2");
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
