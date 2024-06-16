@@ -1,2 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
