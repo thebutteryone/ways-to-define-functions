@@ -1,2 +1,1 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
