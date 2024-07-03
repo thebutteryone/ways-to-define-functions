@@ -1,3 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const merge = [...new Set(a.concat(b))];
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
