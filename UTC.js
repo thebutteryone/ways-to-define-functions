@@ -1,3 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-console.log("0 || 1 = "+(0 || 1));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isEmptyArray = arr => !arr.length;
+const channel = getChannel(computedAppVersion);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
