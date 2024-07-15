@@ -1,3 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-console.log(1 +  -"1" + "2");
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const getRandomBoolean = () => Math.random() >= 0.5;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
