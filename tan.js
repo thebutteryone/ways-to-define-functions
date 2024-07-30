@@ -1,2 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const results = await Promise.all(resultingPromises);
+console.log("1 || 2 = "+(1 || 2));
+console.log(+"1" +  "1" + "2");
+const merge = [...new Set([...a, ...b])];
