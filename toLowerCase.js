@@ -1,1 +1,2 @@
-const isTabInView = () => !document.hidden;
+const uniqueArray = arr => [...new Set(arr)];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
