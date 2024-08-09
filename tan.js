@@ -1,3 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-console.log(+"1" +  "1" + "2");
-const merge = [...new Set([...a, ...b])];
+const goToTop = () => window.scrollTo(0, 0);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log(false == '0');
